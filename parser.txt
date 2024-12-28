@@ -1,0 +1,30 @@
+Accelerometer
+1. 0x02 01 06 03 03 E1FF 12 16 E1FF A1 03 64 FFF4 000F FF00 3772A33F23AC
+3. 0x02 01 06 03 03 E1FF 12 16 E1FF A1 03 64 FFF6 0011 FF00 3772A33F23AC
+5. 0x02 01 06 03 03 E1FF 12 16 E1FF A1 03 64 FFF4 0011 FF03 3772A33F23AC
+
+
+length  type                      data
+
+1       Data Length                0x02
+1       Flag data type             01
+1       flag data                  06
+1       Data length                03
+1       16-bit service UUID        0x03
+2       UUID data                  0xE1FF
+1       Data Length                12
+1       Service data               0x16
+1       UUID data                  0xE1FF
+1       Frame type                 0xA1
+1       version numer              0x03
+1       SOC                        0x64
+2       x-axis                     0xFFF4
+2       y-axis                     0x000F
+2       z-axis                     0xFF00
+6       mac address                0x3772A33F23AC
+
+i-beacon
+2. 0x02 01 06 1A FF 4C00 0215 53594F4F4B534F4349414C4449535445 0000 0000 E8
+4. 0x02 01 06 1A FF 4C00 0215 53594F4F4B534F4349414C4449535445 0000 0000 E8
+6. 0x02 01 06 1A FF 4C00 0215 53594F4F4B534F4349414C4449535445 0000 0000 E8
+
